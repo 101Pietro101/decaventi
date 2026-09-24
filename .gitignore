@@ -1,0 +1,40 @@
+# Build / generated state
+build/
+.gradle/
+.kotlin/
+out/
+dist/
+coverage/
+
+# Kotlin / Native / Apple
+.konan/
+DerivedData/
+.cxx/
+cmake-build-*/
+
+# IDE / local machine
+.idea/
+.vscode/
+*.iml
+local.properties
+.DS_Store
+Thumbs.db
+
+# Node / web tooling
+node_modules/
+
+# Logs / transient files
+*.log
+*.tmp
+*.temp
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
